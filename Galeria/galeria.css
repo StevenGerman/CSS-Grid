@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --image1:url(data:image/png;base64,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);
+    --image2:url(https://wallpaperaccess.com/full/6271898.jpg);
+    --image3:url(https://imgs.hipertextual.com/wp-content/uploads/2022/09/iron-man-ea.jpg);
+    --image4:url(https://i.blogs.es/67af88/iron-man/1366_521.jpeg);
+    background: rgb(171,181,181);
+    background: rgb(77,26,26);
+background: linear-gradient(0deg, rgba(77,26,26,1) 11%, rgba(200,10,10,1) 100%);
+} 
+
+
+.container{
+    /*outline: 2px solid #000;*/
+    width: 90%;
+    max-width: 600px;
+    height: 600px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px;
+
+    grid-template-areas: 
+    "element1 element1 element2"
+    "element3 element3 element2"
+    "element3 element3 element2"
+    "element4 element4 element4";
+
+
+
+}
+
+.element{
+    font-size:  0px;
+    color: #ccc;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.element1{
+    background-color: red;
+    grid-area: element1;
+    background-image: var(--image1);
+    
+    
+    /*grid-column: 1/3;
+    grid-row: 1/2;*/
+}
+
+.element2{
+    background-color: lightskyblue;
+    grid-area: element2;
+    background-image: var(--image2);
+    /*grid-column: 3/4;
+    grid-row: 1/4;*/
+}
+
+.element3{
+    background-color: lightgreen;
+    grid-area: element3;
+    background-image: var(--image3);
+    /*grid-column: 1/3;
+    grid-row: 2/4;*/
+}
+
+.element4{
+    background-color: purple;
+    grid-area: element4;    
+    background-image: var(--image4);   
+    
+    /*grid-column: 1/4;
+    grid-row: 4/4;*/
+}
